@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('https://www.worldatlas.com/r/w1200/upload/db/2e/0f/shutterstock-691981369.jpg');
+    background-image: url('https://thumbs.dreamstime.com/b/heat-thermometer-shows-temperature-hot-sky-summer-97587143.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -13,9 +13,35 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    right: 10px;
 }
 
 h1 {
     color: black;
     font-size: 2rem;
     margin-bottom: 20px;
+}
+
+.converter {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
